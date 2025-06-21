@@ -1,0 +1,43 @@
+.services-background{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1927269110/display_1500/stock-photo--d-illustration-banner-of-server-room-in-data-center-full-of-telecommunication-equipment-concept-1927269110.jpg");
+    background-size: cover;
+    background-repeat:repeat;
+}
+.services-heading{
+    text-align: center;
+    font-size:30px;
+    padding-top:30px;
+    font-family: "caveat";
+}
+.services-unordered-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.p-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.project-image{
+    height:50vh;
+    width: 40vw;
+    margin: 20px;
+}
+.content-item{
+    margin-left: 10px;
+    text-align:center;
+}
+.content-heading{
+    color: white;
+    font-size: 28px;
+    font-family: "Monoton"
+}
+.content-para{
+    color:#ffffff;
+    font-size: 20px;
+    font-family: "caveat";
+}

@@ -1,0 +1,57 @@
+.carrier-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:center;
+    background-color:#3C3A5B 
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:"lobster";
+    font-style: italic;
+}
+
+.carrier-image{
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.bg-con{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (orientation: portrait){
+    .bg-con{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.heading-opp{
+    font-size: 28px;
+    font-weight:bold;
+}
+.bg-h{
+    width: 70vw;
+    text-align:center;
+}
+.unordered-list{
+    list-style-type: none;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list-item{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.carrier-card{
+    height:40vh;
+    width:40vw;
+    margin:20px;
+}

@@ -1,0 +1,73 @@
+.more-background-image{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2166826819/display_1500/stock-vector-blue-light-streak-fiber-optic-speed-line-futuristic-background-for-g-or-g-technology-wireless-2166826819.jpg");
+    background-repeat: repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+.more-heading{
+    text-align:center;
+    padding-top: 8px;
+    font-size: 28px;
+    font-weight:bold;
+    font-family:'Roboto'
+}
+.unordered-list-items{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    overflow:auto;
+}
+.list-card{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2420619721/display_1500/stock-photo-doctor-work-with-tablet-computer-digital-healthcare-technology-system-analysis-network-connection-2420619721.jpg");
+    height: 35vh;
+    width: 30vw;
+    margin:15px;
+    background-size: cover;
+}
+.con{
+    text-align:center;
+    margin: 20px;
+    padding: 80px;
+    color:white;
+    font-size: 25px;
+    font-weight:bold;
+}
+.laptop-image{
+    width: 38%;
+    margin-top: 2%;
+    border-radius:4%;
+}
+.more-para{
+    text-align:center;
+    font-size: 24px;
+    color:white;
+    font-weight: bold;
+}
+.more-button{
+    border:2px solid white;
+    background-color: transparent;
+    height:5vh;
+    width: 8vw;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+}
+.more-card{
+    background-color: black;
+    width: 100%;
+    margin-top: 4px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.bulb-para{
+    color:white;
+    font-size:18px;
+    font-weight:700;
+}
+.bulb-image{
+    width: 28%;
+}

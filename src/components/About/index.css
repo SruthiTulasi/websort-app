@@ -1,0 +1,83 @@
+.about-container{
+    background-color: #000000;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:40px;
+    height: 45vh;
+}
+
+.heading-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.btn-element{
+    background-color: transparent;
+    color:#ffffffd2;
+    border-color:#ffffff;
+    font-size:22px;
+    margin-left: 30px;
+}
+
+h1{
+    color:#ffffff;
+    font-size:24px;
+    font-weight:bold;
+    font-family:"Roboto";
+    margin-left: 30px;
+}
+
+.paragraph{
+    color:#ffffff;
+    font-size:24px;
+    margin: 17px;
+    padding:10px;
+}
+.home-heading{
+    background-image: url("https://media.istockphoto.com/id/1334575820/photo/business-woman-using-mobile-smartphone-on-global-network-connection-and-data-customer.jpg?s=1024x1024&w=is&k=20&c=_GyJUvffH1HsA97NN2-2qwgkKM-04sbtA0ep5bjs1Zw=");
+    background-size: cover;
+    height:100vh;
+    background-repeat: repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    padding:100px;
+}
+
+.heading{
+    color:#ffffff;
+    font-family: "Roboto";
+    font-size:28px;
+    font-weight:700;
+
+}
+
+.buttons-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+.btn-item{
+    margin-right:40px;
+    font-size:21px;
+    background-color: transparent;
+    border-color:#ffffff;
+    font-weight:bold;
+    font-family:"Roboto";
+    border-radius:20%;
+    border-width:5px;
+    color:#ffffff;
+}
+
+
+
+
+
+

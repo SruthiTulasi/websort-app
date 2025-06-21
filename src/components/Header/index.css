@@ -1,0 +1,60 @@
+.logo-img{
+    width:20%;
+    border-radius:50%;
+    margin:5px;
+}
+.logo-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.heading-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.heading{
+    color:#060270;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: bold
+}
+.paragraph{
+    font-size: 24px;  
+}
+.main-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:#98F5F9;
+    height: 18vh;
+}
+.unordered-list-items{
+    list-style-type: None;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media (orientation: portrait){
+    .unordered-list-items{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 140px;
+        overflow:auto;
+    }
+}
+
+.list-item{
+    font-size:24px;
+    margin-right:60px;
+    color:#060270;
+    font-weight:bold;
+    font-family: 'Roboto';
+}
